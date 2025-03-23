@@ -1,0 +1,22 @@
+{
+  "name": "namasthenodeproject",
+  "version": "1.0.0",
+  "description": "Developing by reffering tinder",
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "reactjs"
+  ],
+  "license": "ISC",
+  "author": "Harish Gotham",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/App.js",
+    "dev":"nodemon src/App.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
